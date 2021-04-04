@@ -1,0 +1,194 @@
+/* --------------------- Main content styling --------------------- */
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+ul {
+  font-size: 18px;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+hr {
+  height: 10px;
+  background-color: #36486b;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* --------------------- Header and footer styling --------------------- */
+
+header {
+  font-family: "copperplate gothic bold", "copperplate gothic", arial;
+  text-align: center;
+  background-color: #36486b;
+  color: white;
+  margin: 0px 30px;
+}
+
+main,
+footer {
+  background-color: #8ca3a3;
+  font-family: georgia, "trebuchet ms", arial;
+  margin: 0px 30px;
+}
+
+footer {
+  color: white;
+  background-color: #36486b;
+  margin: 30px 30px;
+}
+
+/* --------------------- Link & Image Styling --------------------- */
+
+a {
+  margin: auto;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: #8ca3a3;
+}
+
+img {
+  display: flex;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+/* --------------------- Form Styling --------------------- */
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family: Helvetica, Arial;
+}
+
+form input {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 6.75rem;
+}
+
+form button {
+  padding: 10px 16px;
+  margin: 10px;
+  background-color: #8ca3a3;
+  color: black;
+  border: 10px;
+  border-radius: 10px;
+}
+
+/* --------------------- Class Styling --------------------- */
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 5px rgb(5, 5, 5) solid;
+  padding: 0px 0px 10px 0px;
+  margin: 50px 10px 50px 0px;
+}
+
+.card .header {
+  height: 100%;
+  background: rgb(58, 51, 100);
+  color: white;
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(58, 51, 100);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.container {
+  padding: 2px 16px;
+  display: grid;
+}
+
+/* --- Groups & Items --- */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 50px;
+}
+
+.item-margin {
+  margin: 0px 50px 50px 50px;
+}
+
+.group-right {
+  margin-right: 50px;
+}
+
+.align-center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* --------------------- (Desktop) Groups & Items --------------------- */
+
+@media all and (min-width: 800px) {
+  .group {
+    flex-direction: row;
+  }
+
+  .item-double {
+    margin-right: 100px;
+  }
+}
