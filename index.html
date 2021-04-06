@@ -10,9 +10,23 @@
   <!-- Standard header using standard settings, normalizing, and linking to style.css -->
 
 <body> <!-- Beginning of code -->
-  <header>
-    <h1>Mark Szymanski</h1>
-    <h2>IT Student</h2>
+  <header id="home">
+    <div class="group">
+      <div class="item">
+        <h1>Mark Szymanski</h1>
+        <h2>IT Student</h2>
+      </div>
+      <nav>
+        <div class="item">
+          <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
 <!-- Head of web page, showing my name and occupation -->
 
@@ -42,8 +56,8 @@
     </div>
   </section>
     <hr> <!-- Horizontal rule to seperate sections -->
-    <h2>About Me</h2>
-      <section>
+    <section id="about">
+      <h2>About Me</h2>
         <div class="group">
           <div class="item-margin">
             <p>After working for a bit after high school, I attended Culinary School at Wake
@@ -62,7 +76,7 @@
             </p>
       </section>
     <hr>
-    <section>
+    <section id="portfolio">
       <div class="group">
         <div class="item">
           <div class="card">
@@ -123,7 +137,7 @@
   </main> <!-- End of main body -->
 
   <footer> <!-- Beginning of footer -->
-    <section>
+    <section id="contact">
       <div class="group">
         <div class="item">
           <h2>Contact Me</h2>
