@@ -29,11 +29,15 @@ ul {
 
 hr {
   height: 10px;
-  background-color: #36486b;
+  background-color: #0e1941;
 }
 
 p {
   font-size: 20px;
+}
+
+#body-header {
+  text-align: left;
 }
 
 /* --------------------- Header and footer styling --------------------- */
@@ -41,22 +45,24 @@ p {
 header {
   font-family: "copperplate gothic bold", "copperplate gothic", arial;
   text-align: center;
-  background-color: #36486b;
-  color: white;
-  margin: 30px 30px;
+  background-color: #0e1941;
+  color: #45bce5;
 }
 
-main,
-footer {
-  background-color: #8ca3a3;
-  font-family: georgia, "trebuchet ms", arial;
-  margin: 0px 30px;
+main {
+  background-color: #45bce5;
+  color: #0e1941;
+  font-family: "Nunito", Rajdhani, "TT Norms Bold", georgia, "trebuchet ms",
+    arial;
+  padding: 0px;
+  margin: 0px;
 }
 
 footer {
-  color: white;
-  background-color: #36486b;
-  margin: 30px 30px;
+  color: #45bce5;
+  background-color: #0e1941;
+  font-family: "Nunito", Rajdhani, "TT Norms Bold", georgia, "trebuchet ms",
+    arial;
 }
 
 /*----------------------- Navigation -------------------------------*/
@@ -83,13 +89,13 @@ a {
 }
 
 a:link {
-  color: white;
+  color: #45bce5;
 }
 a:visited {
-  color: black;
+  color: #395daa;
 }
 a:hover {
-  color: #8ca3a3;
+  color: white;
 }
 
 img {
@@ -125,7 +131,7 @@ form textarea {
 form button {
   padding: 10px 16px;
   margin: 10px;
-  background-color: #8ca3a3;
+  background-color: #45bce5;
   color: white;
   border: 10px;
   border-radius: 10px;
@@ -144,13 +150,13 @@ form button {
 
 .card .header {
   height: 100%;
-  background: rgb(58, 51, 100);
+  background: #0e1941;
   color: white;
   text-align: center;
 }
 
 .button {
-  background-color: rgb(58, 51, 100);
+  background-color: #0e1941;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -182,11 +188,11 @@ form button {
 
 .item-double {
   flex: 2;
-  margin: 50px;
+  margin: 20px;
 }
 
 .item-margin {
-  margin: 0px 50px 50px 50px;
+  margin: 0px 20px 20px 20px;
 }
 
 .align-center {
@@ -196,18 +202,40 @@ form button {
 
 /* --------------------- (Desktop) Groups & Items --------------------- */
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1100px) {
   .group {
     flex-direction: row;
   }
 
   .item-double {
-    margin-right: 100px;
+    margin: 50px 150px 50px 50px;
+  }
+
+  .item-margin {
+    margin: 0px 50px 50px 50px;
+  }
+
+  header {
+    margin: 30px 30px;
   }
 
   nav ul {
     display: flex;
     padding-left: 100px;
     font-size: 22px;
+  }
+
+  main {
+    margin: 0px 30px;
+    padding: 0px 200px 0px 200px;
+  }
+
+  img {
+    margin-bottom: 50px;
+  }
+
+  footer {
+    margin: 30px 30px;
+    padding: 0px 200px 0px 200px;
   }
 }
