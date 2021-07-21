@@ -140,7 +140,7 @@ form button {
 /* --------------------- Class Styling --------------------- */
 
 .card {
-  height: 500px;
+  height: 460px;
   width: auto;
   display: flex;
   flex-direction: column;
