@@ -52,8 +52,8 @@ header {
 main {
   background-color: #aed6f1;
   color: #0e1941;
-  font-family: "Nunito", "Rajdhani", "TT Norms Bold", georgia, "trebuchet ms",
-    arial;
+  font-family: "nunitoregular", "Rajdhani", "TT Norms Bold", georgia,
+    "trebuchet ms", arial;
   padding: 0px;
   margin: 0px;
 }
@@ -61,8 +61,8 @@ main {
 footer {
   color: #aed6f1;
   background-color: #0e1941;
-  font-family: "Nunito", "Rajdhani", "TT Norms Bold", georgia, "trebuchet ms",
-    arial;
+  font-family: "nunitoregular", "Rajdhani", "TT Norms Bold", georgia,
+    "trebuchet ms", arial;
 }
 
 /*----------------------- Navigation -------------------------------*/
