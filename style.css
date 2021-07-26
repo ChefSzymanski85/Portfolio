@@ -52,7 +52,7 @@ header {
 main {
   background-color: #aed6f1;
   color: #0e1941;
-  font-family: "nunitoregular", "Rajdhani", "TT Norms Bold", georgia,
+  font-family: "Nunito", "nunitoregular", "Rajdhani", "TT Norms Bold", georgia,
     "trebuchet ms", arial;
   padding: 0px;
   margin: 0px;
@@ -61,7 +61,7 @@ main {
 footer {
   color: #aed6f1;
   background-color: #0e1941;
-  font-family: "nunitoregular", "Rajdhani", "TT Norms Bold", georgia,
+  font-family: "Nunito", "nunitoregular", "Rajdhani", "TT Norms Bold", georgia,
     "trebuchet ms", arial;
 }
 
@@ -206,10 +206,10 @@ form button {
     flex-direction: row;
   }
 
-  /* .item {
+  .item {
     flex: 3;
     margin: 10px;
-  } */
+  }
 
   .item-double {
     flex: 4;
